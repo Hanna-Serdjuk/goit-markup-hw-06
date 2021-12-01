@@ -916,10 +916,12 @@ color: rgba(255, 255, 255, 0.6);
   width: 16px;
   height: 15px;
 
+  transition: background-color var(--duration-time) var(--timing-function),
+  border-color var(--duration-time) var(--timing-function);
 }
 
 .checkbox:checked + .checkbox-icon {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border-color: var(--accent-color);
   background-image: url(../images/iconcheck.svg);
   background-origin: border-box;
