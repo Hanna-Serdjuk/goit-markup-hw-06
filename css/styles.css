@@ -927,6 +927,10 @@ color: rgba(255, 255, 255, 0.6);
   background-origin: border-box;
 }
 
+.checkbox:focus + .checkbox-icon {
+  border-color: var(--accent-color);
+}
+
 .modal-button {
   display: block;
   margin: 0 auto;
