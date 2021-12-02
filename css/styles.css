@@ -314,6 +314,7 @@ color: rgba(255, 255, 255, 0.6);
   min-width: 200px;
   height: 50px;
   padding: 10px 62px 10px 29px;
+  cursor: pointer;
 
   border-radius: 4px;
   border: none;
@@ -776,6 +777,7 @@ color: rgba(255, 255, 255, 0.6);
   position: absolute;
   top: 8px;
   right: 8px;
+  cursor: pointer;
 
   display: flex;
   justify-content: center;
@@ -792,6 +794,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .close-button>svg {
   fill: currentColor;
+  
 }
 
 .close-button:hover,
@@ -894,7 +897,6 @@ color: rgba(255, 255, 255, 0.6);
 .modal-agreement {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -933,9 +935,10 @@ color: rgba(255, 255, 255, 0.6);
 
 .modal-button {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto 0;
   min-width: 200px;
   height: 50px;
+  cursor: pointer;
 
   font-weight: bold;
   font-size: 16px;
