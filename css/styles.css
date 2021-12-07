@@ -774,6 +774,8 @@ color: rgba(255, 255, 255, 0.6);
   transition: transform var(--duration-time) var(--timing-function);
 }
 
+
+
 .close-button {
   position: absolute;
   top: 8px;
